@@ -1,0 +1,18 @@
+<li class="list-group-item">
+
+	<a href={{url}} target="_blank" id='recipeLink'>
+	{{name}}
+	</a>
+
+	{{#if tried}}
+		<button class="delete-recipe" data-id="{{this.id}}">
+			DELETE
+		</button>
+
+	{{else}}
+		<button class="change-tried" data-id="{{this.id}}" data-newtried="true">
+			TRY ME
+		</button>
+	{{/if}}
+
+</li>
