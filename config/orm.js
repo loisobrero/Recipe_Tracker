@@ -70,6 +70,7 @@ var orm = {
     queryString += " WHERE ";
     queryString += condition;
 
+    console.log(objColVals)
     console.log(queryString);
     connection.query(queryString, function(err, result) {
       if (err) {

@@ -15,6 +15,12 @@
 	font-family: 'Josefin Slab', serif;
 }
 
+h1 {
+	text-align: center;
+	border-bottom: 2px solid #000;
+}
+
+
 h2 {
 	text-align: center;
 }
@@ -34,7 +40,20 @@ h2 {
 	text-decoration: none;
 }
 
-.delete-recipe {
+.finaluserScore {
+	display: inline-block;
+}
+
+.submit-score {
+	display: inline-block;
+}
+
+#deleteStart {
+	display: inline-block;
+}
+
+#deleteEnd {
+	display: inline-block;
 	float: right;
 }
 
@@ -52,14 +71,16 @@ h2 {
 }
 
 #recipeName,
-#recipeURL {
+#recipeURL,
+#recipeType {
 	width: 75%;
 	float: right;
 }
 
 @media screen and (max-width: 975px) {
 	#recipeName,
-	#recipeURL {
+	#recipeURL,
+	#recipeTyle {
 		width: 100%;
 		margin-bottom: 10px;
 	}
