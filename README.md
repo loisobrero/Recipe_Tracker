@@ -23,3 +23,4 @@ If you want to add a recipe, include the recipe name, URL to the recipe page, an
 
 ![Alt text](public/assets/images/website_screenshot_bottom.png?raw=true "Screenshot of website columns")
 
+The site can also be accessed via the deployed Heroku page at https://still-fortress-47497.herokuapp.com/
